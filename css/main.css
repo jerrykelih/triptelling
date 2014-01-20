@@ -1,0 +1,121 @@
+/* line 620, /Users/jerry/Sites/triptelling/less/mixins.less */
+.dropdown-arrow-inverse {
+  border-bottom-color: #34495e !important;
+  border-top-color: #34495e !important;
+}
+/* line 7, /Users/jerry/Sites/triptelling/less/main.less */
+body {
+  font-family: 'Lato';
+  font-weight: 300;
+}
+/* line 15, /Users/jerry/Sites/triptelling/less/main.less */
+body > section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 20, /Users/jerry/Sites/triptelling/less/main.less */
+a {
+  font-weight: 600;
+  color: #2c3e50;
+}
+/* line 24, /Users/jerry/Sites/triptelling/less/main.less */
+a :hover,
+a :focus {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+/* line 33, /Users/jerry/Sites/triptelling/less/main.less */
+h1 {
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.3em;
+  color: white;
+  padding-top: 0px;
+}
+@media (max-width: 480px) {
+  /* line 40, /Users/jerry/Sites/triptelling/less/main.less */
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  /* line 45, /Users/jerry/Sites/triptelling/less/main.less */
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+/* line 52, /Users/jerry/Sites/triptelling/less/main.less */
+h2 {
+  margin-top: 200px;
+  font-size: 4em;
+  font-weight: 500;
+}
+@media (max-width: 480px) {
+  /* line 57, /Users/jerry/Sites/triptelling/less/main.less */
+  h2 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  /* line 62, /Users/jerry/Sites/triptelling/less/main.less */
+  h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+/* line 70, /Users/jerry/Sites/triptelling/less/main.less */
+header {
+  background: url(../images/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 78, /Users/jerry/Sites/triptelling/less/main.less */
+header .logo {
+  width: 30%;
+  padding-top: 120px;
+}
+/* line 83, /Users/jerry/Sites/triptelling/less/main.less */
+header img.pic0 {
+  width: 100%;
+  margin-top: 100px;
+}
+/* line 90, /Users/jerry/Sites/triptelling/less/main.less */
+.btn {
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: 50px;
+  padding: 20px 30px;
+  border-radius: 0px;
+}
+/* line 99, /Users/jerry/Sites/triptelling/less/main.less */
+.capture {
+  background-color: #FFED89;
+  color: #F68E55;
+}
+/* line 103, /Users/jerry/Sites/triptelling/less/main.less */
+.capture img.pic0 {
+  width: 100%;
+}
+/* line 109, /Users/jerry/Sites/triptelling/less/main.less */
+footer {
+  color: #eff3f6;
+  background-color: #031521;
+  padding: 50px 0px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+/* line 111, /Users/jerry/Sites/triptelling/less/main.less */
+footer .columns {
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  /* line 120, /Users/jerry/Sites/triptelling/less/main.less */
+  footer {
+    text-align: center;
+  }
+}

@@ -1,0 +1,32 @@
+// Effects
+script
+  (function ($) {
+  var platform = navigator.platform
+  iOs = platform === 'iPod' || platform === 'iPad' || platform === 'iPhone';
+
+  if (!iOs) {
+  $('.fade-in-left').bind('inview', function (event, visible) {
+  if (visible) {
+  $(this).addClass('animated fadeInLeft');
+  }
+  });
+  
+  $('.fade-in-right').bind('inview', function (event, visible) {
+  if (visible) {
+  $(this).addClass('animated fadeInRight');
+  }
+  });
+  
+  $('.bounce-inview').bind('inview', function (event, visible) {
+  if (visible) {
+  $(this).addClass('animated bounce');
+  }
+  });
+  }
+  
+  $('#header').on('click', 'a', function () {
+  var $clickedAnchor = $(this),
+  $panelToScrollTo = $('#' + $clickedAnchor.data('loc'));
+  $panelToScrollTo.scrollTo();
+  });
+  }(jQuery));
