@@ -90,18 +90,76 @@ header .logo {
     width: 40%;
   }
 }
-/* line 94, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 991px) and (min-width: 786px) {
+  /* line 93, /Users/jerry/Sites/triptelling/less/main.less */
+  header .logo {
+    width: 50%;
+  }
+}
+@media (max-width: 786px) {
+  /* line 97, /Users/jerry/Sites/triptelling/less/main.less */
+  header .logo {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+  }
+}
+/* line 104, /Users/jerry/Sites/triptelling/less/main.less */
 header .pic0 {
   width: 100%;
   margin-top: 100px;
 }
+@media (max-width: 991px) {
+  /* line 108, /Users/jerry/Sites/triptelling/less/main.less */
+  header .pic0 {
+    width: 100%;
+    margin-top: 130px;
+  }
+}
+@media (max-width: 786px) {
+  /* line 113, /Users/jerry/Sites/triptelling/less/main.less */
+  header .pic0 {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+  }
+}
 @media (max-width: 1200px) {
-  /* line 102, /Users/jerry/Sites/triptelling/less/main.less */
+  /* line 124, /Users/jerry/Sites/triptelling/less/main.less */
   header h1 {
     font-size: 3.2em;
   }
 }
-/* line 110, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 991px) and (min-width: 786px) {
+  /* line 127, /Users/jerry/Sites/triptelling/less/main.less */
+  header h1 {
+    font-size: 2em;
+  }
+}
+@media (max-width: 786px) {
+  /* line 130, /Users/jerry/Sites/triptelling/less/main.less */
+  header h1 {
+    text-align: center;
+    margin-top: 70px;
+  }
+}
+@media (max-width: 991px) and (min-width: 786px) {
+  /* line 137, /Users/jerry/Sites/triptelling/less/main.less */
+  header .btn {
+    font-size: 1.5em;
+  }
+}
+@media (max-width: 786px) {
+  /* line 140, /Users/jerry/Sites/triptelling/less/main.less */
+  header .btn {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+  }
+}
+/* line 150, /Users/jerry/Sites/triptelling/less/main.less */
 .btn {
   font-size: 2em;
   font-weight: 300;
@@ -109,20 +167,42 @@ header .pic0 {
   padding: 20px 30px;
   border-radius: 0px;
 }
-/* line 119, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 159, /Users/jerry/Sites/triptelling/less/main.less */
 .capture {
   background-color: #FFED89;
   color: #F68E55;
 }
-/* line 123, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 163, /Users/jerry/Sites/triptelling/less/main.less */
 .capture .pic1 {
   width: 100%;
 }
-/* line 127, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 786px) {
+  /* line 166, /Users/jerry/Sites/triptelling/less/main.less */
+  .capture .pic1 {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+  }
+}
+/* line 174, /Users/jerry/Sites/triptelling/less/main.less */
 .capture h2 {
   margin-top: 200px;
 }
-/* line 132, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 991px) {
+  /* line 177, /Users/jerry/Sites/triptelling/less/main.less */
+  .capture h2 {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 786px) {
+  /* line 181, /Users/jerry/Sites/triptelling/less/main.less */
+  .capture h2 {
+    margin-top: 70px;
+    text-align: center;
+  }
+}
+/* line 190, /Users/jerry/Sites/triptelling/less/main.less */
 .display {
   color: #fff;
   background: url(../images/pic-2.png) no-repeat center center fixed;
@@ -132,62 +212,100 @@ header .pic0 {
   background-size: cover;
   background-color: #2DCB71;
 }
-/* line 143, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 786px) {
+  /* line 202, /Users/jerry/Sites/triptelling/less/main.less */
+  .display h2 {
+    margin-top: 70px;
+    text-align: center;
+  }
+}
+/* line 209, /Users/jerry/Sites/triptelling/less/main.less */
 .discover {
   background-color: #5FCBFF;
   color: #297FB9;
 }
-/* line 147, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 213, /Users/jerry/Sites/triptelling/less/main.less */
 .discover .pic3 {
   width: 100%;
 }
-/* line 151, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 786px) {
+  /* line 216, /Users/jerry/Sites/triptelling/less/main.less */
+  .discover .pic3 {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+  }
+}
+/* line 224, /Users/jerry/Sites/triptelling/less/main.less */
 .discover h2 {
   margin-top: 200px;
 }
-/* line 156, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 991px) {
+  /* line 226, /Users/jerry/Sites/triptelling/less/main.less */
+  .discover h2 {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 786px) {
+  /* line 230, /Users/jerry/Sites/triptelling/less/main.less */
+  .discover h2 {
+    margin-top: 70px;
+    text-align: center;
+  }
+}
+/* line 239, /Users/jerry/Sites/triptelling/less/main.less */
 .invite {
   color: #E74C3C;
   background-color: #fff;
 }
-/* line 160, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 243, /Users/jerry/Sites/triptelling/less/main.less */
 .invite .pic4 {
   margin-top: 100px;
   width: 80%;
 }
-/* line 165, /Users/jerry/Sites/triptelling/less/main.less */
+@media (max-width: 786px) {
+  /* line 247, /Users/jerry/Sites/triptelling/less/main.less */
+  .invite .pic4 {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+  }
+}
+/* line 255, /Users/jerry/Sites/triptelling/less/main.less */
 .invite h3 {
   margin-top: 100px;
 }
-/* line 169, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 259, /Users/jerry/Sites/triptelling/less/main.less */
 .invite button {
   margin-top: 80px;
   margin-bottom: 80px;
 }
 @media (max-width: 768px) {
-  /* line 174, /Users/jerry/Sites/triptelling/less/main.less */
+  /* line 264, /Users/jerry/Sites/triptelling/less/main.less */
   .invite {
     text-align: center;
   }
 }
-/* line 179, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 269, /Users/jerry/Sites/triptelling/less/main.less */
 footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #E74C3C;
 }
-/* line 184, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 274, /Users/jerry/Sites/triptelling/less/main.less */
 footer p {
   font-size: 2.5em;
   color: #fff;
   font-weight: 500;
 }
-/* line 191, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 281, /Users/jerry/Sites/triptelling/less/main.less */
 footer a {
   font-weight: 600;
   color: #fdd;
 }
-/* line 195, /Users/jerry/Sites/triptelling/less/main.less */
+/* line 285, /Users/jerry/Sites/triptelling/less/main.less */
 footer a:hover,
 footer a:focus {
   color: #fff;
