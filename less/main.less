@@ -17,22 +17,29 @@ body > section {
   padding-bottom: 80px;
 }
 
+p {
+	font-size: 1.5em;
+	color: #E74C3C;
+	font-weight: 500;
+}
+
+
 a {
 	font-weight: 600;
-	color: @midnight-blue;
+	color: #D1362F;
 
-	:hover,
-	:focus {
-	  color: #ecf0f1;
+	&:hover,
+	&:focus {
+	  color: #FF8888;
 	  text-decoration: none;
-	}
+	}	
 }
 
 
 
 h1 {
-	font-size: 5em;
-	font-weight: 300;
+	font-size: 4.2em;
+	font-weight: 500;
 	line-height: 1.3em;
 	color: white;
 	padding-top: 0px;
@@ -50,7 +57,6 @@ h1 {
 
 
 h2 {
-	margin-top: 200px;
 	font-size: 4em;
 	font-weight: 500;
 	
@@ -67,6 +73,7 @@ h2 {
 
 
 
+
 header {
     background: url(../images/header.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -78,11 +85,24 @@ header {
     .logo {
     	width: 30%;
     	padding-top: 120px;
+
+    	@media (max-width: 1200px) {
+    		width: 40%;
+    	}
     }
 
-    img.pic0 {
+    .pic0 {
     	width: 100%;
     	margin-top: 100px;
+
+    }
+
+    h1	{
+
+    	@media (max-width: 1200px) {
+    		font-size: 3.2em;
+    	}
+
     }
 }
 
@@ -100,24 +120,82 @@ header {
 	background-color: #FFED89;
 	color: #F68E55;
 
-	img.pic0 {
+	.pic1 {
 		width: 100%;
+	}
+
+	h2 {
+		margin-top: 200px;
 	}
 }
 
+.display {
+	
+	color: #fff;
+	background: url(../images/pic-2.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #2DCB71;
+}
 
-footer {
+.discover {
+	background-color: #5FCBFF;
+	color: #297FB9;
 
-	.columns {
-		margin-bottom: 40px;
+	.pic3 {
+		width: 100%;
 	}
-	color: #eff3f6;
-	background-color: #031521;
-	padding: 50px 0px;
-	font-size: 1.2em;
-	line-height: 1.7em;
+
+	h2 {
+		margin-top: 200px;
+	}
+}
+
+.invite {
+	color: #E74C3C;
+	background-color: #fff;
+
+	.pic4 {
+		margin-top: 100px;
+		width: 80%;
+	}
+
+	h3 {
+			margin-top: 100px;
+		}
+
+		button {
+			margin-top: 80px;
+			margin-bottom: 80px;
+		}
 
 	@media (max-width: 768px) {
 		text-align: center;
+	}
+}
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #E74C3C;
+
+	p {
+		font-size: 2.5em;
+		color: #fff;
+		font-weight: 500;
+	}
+
+
+	a {
+		font-weight: 600;
+		color: #fdd;
+
+		&:hover,
+		&:focus {
+		  color: #fff;
+		  text-decoration: none;
+		}	
 	}
 }
